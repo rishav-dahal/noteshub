@@ -1,0 +1,12 @@
+{% extends 'posts/base.html' %}
+
+{% block content %}
+<h1> This will be our home page. </h1>
+<p> If there were any posts, they'd be displayed under here.</p>
+<ul>
+    {% for post in all_posts %}
+        <li> {{ post.title }} </li>
+        <br>
+        <li> {{ post.description }} </li>
+    {% endfor %}
+{% endblock content %}

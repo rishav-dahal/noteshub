@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% if title %}
+            <title> Notesewa - {{ title }} </title>
+        {% else %}
+            <title> Notesewa </title>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock content %}
+    </body>
+</html>
+
