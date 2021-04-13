@@ -5,8 +5,9 @@
 <p> If there were any posts, they'd be displayed under here.</p>
 <ul>
     {% for post in all_posts %}
-        <li> {{ post.title }} </li>
-        <br>
-        <li> {{ post.description }} </li>
+        <li>
+            <p>{{ post.title }}</p>
+            <p> {{ post.description }} </p>
+        </li>
     {% endfor %}
 {% endblock content %}
