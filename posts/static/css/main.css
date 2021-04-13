@@ -1,0 +1,1104 @@
+.mediaViewInfo {
+    --web-view-name: Home;
+    --web-view-id: Home;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Home;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Home {
+    position: absolute;
+    width: 1920px;
+    height: 1356px;
+    background-color: rgba(242,242,242,1);
+    overflow: hidden;
+    --web-view-name: Home;
+    --web-view-id: Home;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#pexels-jessica-lewis-583846 {
+    filter: blur(2px);
+    position: absolute;
+    width: 1962px;
+    height: 1308px;
+    left: -21px;
+    top: -149px;
+    overflow: visible;
+}
+#Rectangle_5 {
+    opacity: 0.5;
+    fill: rgba(35,35,35,1);
+}
+.Rectangle_5 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 1159px;
+    left: 0px;
+    top: 0px;
+}
+#Rectangle_1 {
+    opacity: 0.1;
+    fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 135px;
+    left: 0px;
+    top: 0px;
+}
+#NotesHUB {
+    left: 278px;
+    top: 50px;
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(249,249,249,1);
+}
+#All_of_your_Notes_in_one_place {
+    left: 562px;
+    top: 388px;
+    position: absolute;
+    overflow: visible;
+    width: 797px;
+    white-space: nowrap;
+    line-height: 110px;
+    margin-top: -7.5px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 95px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.05px;
+}
+#Rectangle_2 {
+    fill: rgba(0,122,243,1);
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 170px;
+    height: 59px;
+    left: 875px;
+    top: 668px;
+}
+#Get_Started {
+    left: 901px;
+    top: 683px;
+    position: absolute;
+    overflow: visible;
+    width: 115px;
+    white-space: nowrap;
+    line-height: 80px;
+    margin-top: -30px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(254,254,254,1);
+}
+#We_are_here_to_help_you {
+    left: 771px;
+    top: 351px;
+    position: absolute;
+    overflow: visible;
+    width: 379px;
+    white-space: nowrap;
+    line-height: 127px;
+    margin-top: -50px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Rectangle_6 {
+    opacity: 0.58;
+    fill: rgba(34,37,39,1);
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 160px;
+    left: 0px;
+    top: 999px;
+}
+#Component_5__1 {
+    position: absolute;
+    width: 228px;
+    height: 128px;
+    left: 165px;
+    top: 1015px;
+    overflow: visible;
+}
+#Rectangle_7 {
+    fill: transparent;
+    stroke: rgba(0,122,243,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_7 {
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1 {
+    position: absolute;
+    width: 99px;
+    height: 110px;
+    left: 129px;
+    top: 11px;
+    overflow: hidden;
+}
+#Repeat_Grid_1_0 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_1 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1_x {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_x {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_2 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1_z {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_z {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_3 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1_ {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_ {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_4 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_ba {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_ba {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_5 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_bb {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bb {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_6 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_bc {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bc {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_7 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_bd {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bd {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_8 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_be {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_be {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_9 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_bf {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bf {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_10 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_bg {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bg {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_11 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_bh {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bh {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_12 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_bj {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bj {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_13 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_bl {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bl {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_14 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_bn {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bn {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_1_15 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_bp {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bp {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#A_group_project_of_software_en {
+    left: 493px;
+    top: 1059px;
+    position: absolute;
+    overflow: visible;
+    width: 936px;
+    white-space: nowrap;
+    line-height: 127px;
+    margin-top: -48.5px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.5px;
+}
+#Component_4__1 {
+    position: absolute;
+    width: 147px;
+    height: 47px;
+    left: 1527px;
+    top: 52px;
+    overflow: visible;
+    transition: all 0.8s ease-in;
+    --web-animation: fadein 0.8s ease-in;
+    --web-action-type: page;
+    --web-action-target: LoginPage.html;
+    cursor: pointer;
+}
+#Rectangle_4 {
+    fill: transparent;
+    stroke: rgba(0,122,243,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 147px;
+    height: 45px;
+    left: -27px;
+    top: 0px;
+}
+#Log_In {
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 54px;
+    white-space: nowrap;
+    line-height: 72px;
+    margin-top: -27px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.05px;
+}
+#Contact_Us {
+    left: 1358px;
+    top: 61px;
+    position: absolute;
+    overflow: visible;
+    width: 112px;
+    white-space: nowrap;
+    line-height: 100px;
+    margin-top: -40px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(252,252,252,1);
+    letter-spacing: 0.05px;
+}
+#Component_6__1 {
+    position: absolute;
+    width: 220px;
+    height: 128px;
+    left: 1543px;
+    top: 1017px;
+    overflow: visible;
+}
+#Rectangle_8 {
+    fill: transparent;
+    stroke: rgba(0,122,243,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_8 {
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    height: 128px;
+    left: 42px;
+    top: 0px;
+}
+#Repeat_Grid_2 {
+    position: absolute;
+    width: 99px;
+    height: 110px;
+    left: 0px;
+    top: 9px;
+    overflow: hidden;
+}
+#Repeat_Grid_2_0 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1_bz {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_bz {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_1 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1_b {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_b {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_2 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1_ca {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_ca {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_3 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1_cb {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cb {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_4 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_cc {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cc {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_5 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_cd {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cd {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_6 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_ce {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_ce {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_7 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 28px;
+    overflow: visible;
+}
+#Ellipse_1_cf {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cf {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_8 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_cg {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cg {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_9 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_ch {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_ch {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_10 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_cj {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cj {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_11 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 56px;
+    overflow: visible;
+}
+#Ellipse_1_cl {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cl {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_12 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_cn {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cn {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_13 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 26px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_cp {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cp {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_14 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 52px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_cr {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_cr {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_2_15 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 78px;
+    top: 84px;
+    overflow: visible;
+}
+#Ellipse_1_ct {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1_ct {
+    position: absolute;
+    overflow: visible;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+}

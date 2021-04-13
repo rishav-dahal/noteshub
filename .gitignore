@@ -1,3 +1,5 @@
 notesewa_project/__pycache__/
 posts/__pycache__/
 posts/migrations/__pycache__/
+# Let's not merge this right now
+posts/templates/posts/FrontendTemplate
