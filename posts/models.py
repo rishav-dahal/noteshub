@@ -8,6 +8,7 @@ class Post(models.Model):
     """
     title = models.CharField(max_length=50)
     description = models.TextField(max_length=200)
+    file_field = models.FileField(upload_to='user_uploads/', null=True)
 
     def __str__(self):
         """
@@ -15,3 +16,4 @@ class Post(models.Model):
         which's displayed in admin page
         """
         return self.title
+
