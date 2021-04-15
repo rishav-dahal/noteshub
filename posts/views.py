@@ -12,7 +12,7 @@ class HomeView(ListView):
     Class view for our home page
     """
     model = Post
-    template_name = "posts/posts_home.html" # <app_name>/<app_name>_<tags>.html
+    template_name = "posts/post_home.html" # <app>/<model>_<viewtype>.html
 
     def get_context_data(self, **kwargs):
         """
