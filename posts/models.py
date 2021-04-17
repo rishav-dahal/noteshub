@@ -1,8 +1,11 @@
 # Core Django imports
 from django.db import models
 
+# package imports
+from core.models import TimeStampedModel
 
-class Post(models.Model):
+
+class Post(TimeStampedModel):
     """
     Base class to define our Post model and its properties
     """

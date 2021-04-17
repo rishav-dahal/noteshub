@@ -8,6 +8,7 @@
         <li>
             <p>{{ post.title }}</p>
             <p> {{ post.description }} </p>
+            <p> {{ post.created }} </p>
             <a href="{{post.file_field.url}}" download>Download</a>
         </li>
     {% endfor %}
