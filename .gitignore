@@ -1,10 +1,8 @@
-notesewa_project/__pycache__/
-posts/__pycache__/
-posts/migrations/__pycache__/
+src/notesewa_project/__pycache__/
+src/posts/__pycache__/
+src/posts/migrations/__pycache__/
 # Let's not merge this right now
-posts/templates/posts/FrontendTemplate
-user_uploads/
-# just a random script for my use
-commit
-core/__pycache__/
-tags
+src/posts/templates/posts/FrontendTemplate
+src/user_uploads/
+src/core/__pycache__/
+src/tags
