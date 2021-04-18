@@ -13,11 +13,5 @@ class HomeView(ListView):
     """
     model = Post
     template_name = "posts/post_home.html" # <app>/<model>_<viewtype>.html
-
-    def get_context_data(self, **kwargs):
-        """
-        Returns the context to which we're displaying the posts
-        """
-        context = super(HomeView, self).get_context_data(**kwargs)
-        context['all_posts'] = Post.objects.all()
-        return context
+    context_object_name = 'all_posts'
+    order_by = 'created' 
