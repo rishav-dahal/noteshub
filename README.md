@@ -1,5 +1,5 @@
 # Notesewa
-__Notesewa__ is a simple school project started by a group of freshers to have a convenient way to manage and share notes.
+__Notesewa__ is a simple college project started by a group of freshers to have a convenient way to manage and share notes.
 
 As can be seen, the project has just been started and we're adding stuff to it as we learn.
 
