@@ -1,17 +1,16 @@
 # Core Django imports
 from django.shortcuts import render
-from django.views.generic import ListView
 
 # app imports
 from .models import Post
 
 
-
-class HomeView(ListView):
+def home(request):
     """
-    Class view for our home page
+    Function view for our home page
     """
-    model = Post
     template_name = "posts/post_home.html" # <app>/<model>_<viewtype>.html
-    context_object_name = 'all_posts'
-    order_by = 'created' 
+    context = {
+            'all_posts': Post.objects.all().order_by('-created')
+            }
+    return render(request, template_name, context)
