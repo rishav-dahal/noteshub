@@ -6,3 +6,4 @@ src/posts/templates/posts/FrontendTemplate
 src/user_uploads/
 src/core/__pycache__/
 src/tags
+src/noteshub/__pycache__/
