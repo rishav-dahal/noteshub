@@ -1,5 +1,5 @@
 """
-WSGI config for notesewa_project project.
+WSGI config for noteshub project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'notesewa_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'noteshub.settings')
 
 application = get_wsgi_application()
