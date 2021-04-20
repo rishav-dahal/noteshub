@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/pratik/Documents/Projects/Django Projects/personal/noteshub/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+ALLOWED_HOSTS	src/noteshub/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	src/noteshub/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+BASE_DIR	src/noteshub/settings.py	/^BASE_DIR = Path(__file__).resolve().parent.parent$/;"	v
+DATABASES	src/noteshub/settings.py	/^DATABASES = {$/;"	v
+DEBUG	src/noteshub/settings.py	/^DEBUG = True$/;"	v
+DEFAULT_AUTO_FIELD	src/noteshub/settings.py	/^DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'$/;"	v
+Home Page	src/posts/templates/posts/post_home.html	/^<h1>Home Page<\/h1>$/;"	h
+INSTALLED_APPS	src/noteshub/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	src/noteshub/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MEDIA_URL	src/noteshub/settings.py	/^MEDIA_URL = '\/media\/'$/;"	v
+MIDDLEWARE	src/noteshub/settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	src/core/models.py	/^    class Meta:$/;"	c	class:TimeStampedModel
+Meta	src/posts/models.py	/^    class Meta:$/;"	c	class:Post
+Notesewa	README.md	/^# Notesewa$/;"	c
+Post	src/posts/models.py	/^class Post(TimeStampedModel):$/;"	c
+Post Detail	src/posts/templates/posts/post_detail.html	/^    <h1>Post Detail<\/h1>$/;"	h
+PostAdmin	src/posts/admin.py	/^class PostAdmin(admin.ModelAdmin):$/;"	c
+PostDetailView	src/posts/views.py	/^class PostDetailView(DetailView):$/;"	c
+PostsConfig	src/posts/apps.py	/^class PostsConfig(AppConfig):$/;"	c
+ROOT_URLCONF	src/noteshub/settings.py	/^ROOT_URLCONF = 'noteshub.urls'$/;"	v
+SECRET_KEY	src/noteshub/settings.py	/^SECRET_KEY = 'django-insecure-ek%b#s4^)*&1x7l$m-ifi06%d+6pba2!jgn9w_nl=rs1u+@wyu'$/;"	v
+STATIC_URL	src/noteshub/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	src/noteshub/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	src/noteshub/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TimeStampedModel	src/core/models.py	/^class TimeStampedModel(models.Model):$/;"	c
+USE_I18N	src/noteshub/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	src/noteshub/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	src/noteshub/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	src/noteshub/settings.py	/^WSGI_APPLICATION = 'noteshub.wsgi.application'$/;"	v
+__str__	src/posts/models.py	/^    def __str__(self):$/;"	m	class:Post
+abstract	src/core/models.py	/^        abstract = True$/;"	v	class:TimeStampedModel.Meta
+app_name	src/posts/urls.py	/^app_name = 'posts'$/;"	v
+application	src/noteshub/asgi.py	/^application = get_asgi_application()$/;"	v
+application	src/noteshub/wsgi.py	/^application = get_wsgi_application()$/;"	v
+author	src/posts/models.py	/^    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='posts')$/;"	v	class:Post
+created	src/core/models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	v	class:TimeStampedModel
+default_auto_field	src/posts/apps.py	/^    default_auto_field = 'django.db.models.BigAutoField'$/;"	v	class:PostsConfig
+description	src/posts/models.py	/^    description = models.TextField(max_length=200)$/;"	v	class:Post
+file_field	src/posts/models.py	/^    file_field = models.FileField(upload_to='user_uploads\/', null=True)$/;"	v	class:Post
+get_object	src/posts/views.py	/^    def get_object(self, queryset=None):$/;"	m	class:PostDetailView
+home	src/posts/views.py	/^def home(request):$/;"	f
+list_display	src/posts/admin.py	/^    list_display = ('title', 'title_slug', 'author', 'created')$/;"	v	class:PostAdmin
+list_filter	src/posts/admin.py	/^    list_filter = ('created', 'author') $/;"	v	class:PostAdmin
+main	src/manage.py	/^def main():$/;"	f
+model	src/posts/views.py	/^    model = Post$/;"	v	class:PostDetailView
+modified	src/core/models.py	/^    modified = models.DateTimeField(auto_now=True)$/;"	v	class:TimeStampedModel
+name	src/posts/apps.py	/^    name = 'posts'$/;"	v	class:PostsConfig
+ordering	src/posts/models.py	/^        ordering = ('-created',)$/;"	v	class:Post.Meta
+raw_id_fields	src/posts/admin.py	/^    raw_id_fields = ('author',)$/;"	v	class:PostAdmin
+save	src/posts/models.py	/^    def save(self, *args, **kwargs):$/;"	m	class:Post
+search_fields	src/posts/admin.py	/^    search_fields = ('title', 'description')$/;"	v	class:PostAdmin
+template_name	src/posts/views.py	/^    template_name = "posts\/post_detail.html"$/;"	v	class:PostDetailView
+title	src/posts/models.py	/^    title = models.CharField(max_length=50)$/;"	v	class:Post
+title_slug	src/posts/models.py	/^    title_slug = models.SlugField(null=True, blank=True)$/;"	v	class:Post
+urlpatterns	src/noteshub/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	src/posts/urls.py	/^urlpatterns = [$/;"	v
