@@ -1,15 +1,11 @@
 {% extends 'posts/base.html' %}
 
 {% block content %}
-<h1> This will be our home page. </h1>
-<p> If there were any posts, they'd be displayed under here.</p>
+<h1>Home Page</h1>
 <ul>
     {% for post in all_posts %}
         <li>
-            <p>{{ post.title }}</p>
-            <p><i>on {{ post.created|date:'M j, Y' }}</i></p>
-            <p> {{ post.description }} </p>
-            <a href="{{post.file_field.url}}" download>Download</a>
+            <a href="{% url 'noteshub:posts_detail' post.title_slug %}">{{ post.title }}<i> by {{ post.author.username }}</i></a>
         </li>
     {% endfor %}
 {% endblock content %}
