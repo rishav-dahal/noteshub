@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path(
         route = '', 
-        view  = include('posts.urls')
+        view  = include('posts.urls', namespace='noteshub')
         )
 ]
 
