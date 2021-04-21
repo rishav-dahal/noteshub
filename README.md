@@ -19,6 +19,9 @@ As can be seen, the project has just been started and we're adding stuff to it a
     `python manage.py runserver`
 + Go to the url `localhost:8000` on your browser.
 
+### For Windows:
++ Consider using Linux.
+
 # Objectives
 + The current objective of the project is:
     - to have a system where user can login, register and also upload their own content.
