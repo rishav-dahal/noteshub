@@ -2,7 +2,7 @@
 __Notesewa__ is a simple college project started by a group of freshers to have a convenient way to manage and share notes.
 
 # Installation
-<sub><sup>This project uses the Django framework written in Python. So you need a python interpreter on your system.</sup></sub>
+<sub><sup>__Note__: This project uses the Django framework written in Python. So you need a python interpreter on your system.</sup></sub>
 ### For Linux/MacOS:
 + Clone the repo:
     ` git clone https://github.com/pratik-devkota/noteshub.git`
