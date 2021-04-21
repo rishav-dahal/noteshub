@@ -1,5 +1,6 @@
 # Notesewa
 __Notesewa__ is a simple college project started by a group of freshers to have a convenient way to manage and share notes.
+As can be seen, the project has just been started and we're adding stuff to it as we learn.
 
 # Installation
 <sub><sup>__Note__: This project uses the Django framework written in Python. So you need a python interpreter on your system.</sup></sub>
@@ -18,9 +19,7 @@ __Notesewa__ is a simple college project started by a group of freshers to have 
     `python manage.py runserver`
 + Go to the url `localhost:8000` on your browser.
 
-
-As can be seen, the project has just been started and we're adding stuff to it as we learn.
-
+# Objectives
 + The current objective of the project is:
     - to have a system where user can login, register and also upload their own content.
     - to have a page where users can view recent uploads (similar to a blog application) and download the files if provided on that post.
