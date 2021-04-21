@@ -4,19 +4,19 @@ __Notesewa__ is a simple college project started by a group of freshers to have 
 # Installation
 <sub><sup>This project uses the Django framework written in Python. So you need a python interpreter on your system.</sup></sub>
 ### For Linux/MacOS:
-    + Clone the repo:
-        ` git clone https://github.com/pratik-devkota/noteshub.git`
-    + Make a virtual environment. Eg:
-        `python -m venv venv`
-    + Activate the virtual environment. Eg:
-        `source ./venv/bin/activate`
-    + Install the dependencies from the repo's requirements.txt file.
-        `pip install -r requirements.txt`
-    + Run the following code:
-        `python manage.py makemigrations && python manage.py migrate`
-    + Run the server.
-        `python manage.py runserver`
-    + Go to the url `localhost:8000` on your browser.
++ Clone the repo:
+    ` git clone https://github.com/pratik-devkota/noteshub.git`
++ Make a virtual environment. Eg:
+    `python -m venv venv`
++ Activate the virtual environment. Eg:
+    `source ./venv/bin/activate`
++ Install the dependencies from the repo's requirements.txt file.
+    `pip install -r requirements.txt`
++ Run the following code:
+    `python manage.py makemigrations && python manage.py migrate`
++ Run the server.
+    `python manage.py runserver`
++ Go to the url `localhost:8000` on your browser.
 
 
 As can be seen, the project has just been started and we're adding stuff to it as we learn.
