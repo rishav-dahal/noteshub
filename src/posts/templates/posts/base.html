@@ -1,14 +1,46 @@
 <!doctype html>
 <html lang="en">
+   
     <head>
         {% if title %}
             <title> Noteshub - {{ title }} </title>
         {% else %}
             <title> Noteshub </title>
         {% endif %}
+        <meta charset="UTF-8">
     </head>
     <body>
         {% block content %}
+        <nav>
+  <div="header"> <div class="logo">NOTESEWA </div>
+   <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">NOTES</a>
+     <ul>
+       <li><a href="#">Physics</a></li>
+       <li><a href="#">Maths</a></li>
+       <li><a href="#">C Prog</a></li>
+       <li><a href="#">PST</a></li>
+       <li><a href="#">CT</a></li>
+       <li><a href="#">FIT</a></li>
+     </ul>
+    </li>
+    <li><a href="#">SOLUTIONS</a>
+     <ul>
+       <li><a href="#">Physics</a></li>
+       <li><a href="#">Maths</a></li>
+       <li><a href="#">C Prog</a></li>
+       <li><a href="#">PST</a></li>
+       <li><a href="#">CT</a></li>
+       <li><a href="#">FIT</a></li>
+      </ul>
+     </li>
+   </ul>
+</nav>
+</div>
+<div class="main">
+</div>
+
         {% endblock content %}
     </body>
 </html>
