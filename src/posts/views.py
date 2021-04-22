@@ -11,7 +11,7 @@ def post_list(request):
     Function view for our home page containing all posts
     """
     template_name = "posts/post_list.html" # <app>/<model>_<viewtype>.html
-    context = { 'recent_posts': Post.objects.all().order_by('-created') }
+    context = { 'recent_posts': Post.published.all().order_by('-created') }
     return render(request, template_name, context)
 
 class PostDetailView(DetailView):
