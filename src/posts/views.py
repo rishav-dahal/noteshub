@@ -6,17 +6,18 @@ from django.views.generic import DetailView
 from .models import Post
 
 
-def home(request):
+def post_list(request):
     """
-    Function view for our home page
+    Function view for our home page containing all posts
     """
-    template_name = "posts/post_home.html" # <app>/<model>_<viewtype>.html
-    context = {
-            'all_posts': Post.objects.all().order_by('-created')
-            }
+    template_name = "posts/post_list.html" # <app>/<model>_<viewtype>.html
+    context = { 'recent_posts': Post.objects.all().order_by('-created') }
     return render(request, template_name, context)
 
 class PostDetailView(DetailView):
+    """
+    Class based detail view for a single post
+    """
     model = Post
     template_name = "posts/post_detail.html"
 

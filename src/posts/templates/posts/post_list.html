@@ -3,7 +3,7 @@
 {% block content %}
 <h1>Home Page</h1>
 <ul>
-    {% for post in all_posts %}
+    {% for post in recent_posts %}
         <li>
             <a href="{% url 'noteshub:posts_detail' post.title_slug %}">{{ post.title }}<i> by {{ post.author.username }}</i></a>
         </li>
