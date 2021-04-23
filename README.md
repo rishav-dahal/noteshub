@@ -18,6 +18,8 @@ As can be seen, the project has just been started and we're adding stuff to it a
 + Run the server.
     `python manage.py runserver`
 + Go to the url `localhost:8000` on your browser.
++ You can also visit the admin panel that Django provides by going to 
+  `localhost:8000/admin` while the server is running.
 
 ### For Windows:
 + Consider using Linux.
