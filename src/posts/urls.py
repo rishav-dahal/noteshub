@@ -2,7 +2,7 @@
 from django.urls import path
 
 # app imports
-from .views import post_list, PostDetailView
+from .views import post_list, post_detail
 
 
 app_name = 'posts'
@@ -10,10 +10,9 @@ urlpatterns = [
         path(
             route = '',
             view  = post_list,
-            name  = 'posts_home'),
-
+            name  = 'posts_list'),
         path(
-            route = 'posts/<slug:title_slug>/',
-            view  = PostDetailView.as_view(),
-            name  = 'posts_detail')
+            route = '<int:year>/<int:month>/<int:day>/<slug:post_slug>/',
+            view  = post_detail,
+            name  = 'posts_detail'),
 ]
