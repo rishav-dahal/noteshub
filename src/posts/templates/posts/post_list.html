@@ -5,7 +5,7 @@
 <ul>
     {% for post in recent_posts %}
         <li>
-            <a href="{% url 'noteshub:posts_detail' post.title_slug %}">{{ post.title }}<i> by {{ post.author.username }}</i></a>
+            <a href="{{ post.get_absolute_url }}">{{ post.title }}<i> by {{ post.author }}</i></a>
         </li>
     {% endfor %}
 {% endblock content %}
