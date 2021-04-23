@@ -2,11 +2,8 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #D7DBDD;
   font-family:"poppins",sans-serif;
-}
-
-body{
-  background: #D7DBDD
 }
 
 nav{
@@ -92,4 +89,17 @@ nav ul ul li a{
 nav ul ul li a:hover{
   color: lime;
   box-shadow: none;
+}
+
+p.date { 
+    color:#2c2d19;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
 }
