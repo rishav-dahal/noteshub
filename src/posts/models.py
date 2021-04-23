@@ -1,5 +1,6 @@
 # Core Django imports
 from django.db import models
+from django.urls import reverse
 from django.utils.text import slugify
 from django.contrib.auth.models import User
 
@@ -27,8 +28,8 @@ class Post(TimeStampedModel):
             ('draft', 'Draft'),
             ('published', 'Published'),
             )
-    title = models.CharField(max_length=50)
-    title_slug = models.SlugField(null=True, blank=True)
+    title = models.CharField(max_length=100)
+    title_slug = models.SlugField(null=True, blank=True, max_length=200, unique_for_date='created')
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='posts')
     description = models.TextField(max_length=200)
     file_field = models.FileField(upload_to='user_uploads/', null=True)
@@ -40,6 +41,12 @@ class Post(TimeStampedModel):
 
     class Meta:
         ordering = ('-created',)
+
+    def get_absolute_url(self):
+        return reverse('noteshub:posts_detail',
+                       args=[self.created.year,
+                             self.created.month,
+                             self.created.day, self.title_slug])
 
     def save(self, *args, **kwargs):
         """ 
