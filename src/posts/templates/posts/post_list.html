@@ -1,11 +1,15 @@
 {% extends 'posts/base.html' %}
 
 {% block content %}
-<h1>Home Page</h1>
-<ul>
     {% for post in recent_posts %}
-        <li>
-            <a href="{{ post.get_absolute_url }}">{{ post.title }}<i> by {{ post.author }}</i></a>
-        </li>
-    {% endfor %}
+        <h2>
+            <a href="{{ post.get_absolute_url }}">
+                {{ post.title }}
+            </a>
+        </h2>
+        <p class="date">
+            <i> Published on {{ post.created|date:'M j, Y' }} by {{ post.author }}</i>
+        </p>
+        {{ post.description|truncatewords:30|linebreaks }}
+  {% endfor %}
 {% endblock content %}
