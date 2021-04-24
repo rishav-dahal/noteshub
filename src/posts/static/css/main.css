@@ -103,3 +103,9 @@ p.date {
     width:60%;
     padding:0 0 0 30px; 
 }
+
+/* Pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}

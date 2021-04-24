@@ -11,5 +11,8 @@
             <i> Published on {{ post.created|date:'M j, Y' }} by {{ post.author }}</i>
         </p>
         {{ post.description|truncatewords:30|linebreaks }}
-  {% endfor %}
+    {% endfor %}
+    {% if is_paginated %}
+        {% include "posts/pagination.html" %}
+    {% endif %}
 {% endblock content %}
