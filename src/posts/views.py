@@ -1,17 +1,20 @@
 # Core Django imports
 from django.shortcuts import render, get_object_or_404
+from django.views.generic import ListView
 
 # app imports
 from .models import Post
 
 
-def post_list(request):
+class PostListView(ListView):
     """
-    Function view for our home page containing all posts
+    Listview for our home page containing all published posts
     """
+    # use a specific queryset instead of retrieving all objects
+    queryset = Post.published.all()
+    context_object_name = 'recent_posts'
+    paginate_by = 3
     template_name = "posts/post_list.html" # <app>/<model>_<viewtype>.html
-    context = { 'recent_posts': Post.published.all().order_by('-created') }
-    return render(request, template_name, context)
 
 def post_detail(request, year, month, day, post_slug):
     """

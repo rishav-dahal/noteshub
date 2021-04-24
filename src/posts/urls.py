@@ -2,14 +2,14 @@
 from django.urls import path
 
 # app imports
-from .views import post_list, post_detail
+from .views import PostListView, post_detail
 
 
 app_name = 'posts'
 urlpatterns = [
         path(
             route = '',
-            view  = post_list,
+            view  = PostListView.as_view(),
             name  = 'posts_list'),
         path(
             route = '<int:year>/<int:month>/<int:day>/<slug:post_slug>/',
