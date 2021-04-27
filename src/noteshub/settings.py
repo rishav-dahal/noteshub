@@ -130,8 +130,8 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # EMAILS
-# write emails to the console, since we don't have an SMTP server
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# use gmail, since we don't have a SMTP server
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
