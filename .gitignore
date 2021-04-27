@@ -1,4 +1,4 @@
-**/__pycache__
+**/__pycache__/
 # Let's not merge this right now
 src/posts/templates/posts/FrontendTemplate
 src/user_uploads/
