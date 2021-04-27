@@ -1,4 +1,4 @@
-{% extends 'posts/base.html' %}
+{% extends "layouts/base.html" %}
 
 {% block content %}
     {% for post in recent_posts %}
@@ -13,6 +13,6 @@
         {{ post.description|truncatewords:30|linebreaks }}
     {% endfor %}
     {% if is_paginated %}
-        {% include "posts/pagination.html" %}
+        {% include "layouts/pagination.html" %}
     {% endif %}
 {% endblock content %}
