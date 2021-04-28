@@ -1,3 +1,5 @@
+""" Custom python file to keep all forms in one place """
+
 # core Django imports
 from django import forms
 

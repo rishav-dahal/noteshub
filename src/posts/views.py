@@ -53,4 +53,4 @@ def post_share(request, post_id):
     else:
         form  = EmailPostForm()
     return render(request, template_name='posts/share.html',\
-            context={'post': post, 'form': form, 'sent': sent} )
+                 context={ 'post': post, 'form': form, 'sent': sent })
