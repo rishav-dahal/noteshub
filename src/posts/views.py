@@ -1,6 +1,7 @@
 # Core Django imports
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView
+from django.core.mail import send_mail
 
 # app imports
 from .models import Post
@@ -35,14 +36,21 @@ def post_share(request, post_id):
     """
     # retrieve post by id
     post = get_object_or_404(Post, id=post_id, status='published')
+    sent = False
     if request.method == 'POST':
         # if a form was submitted
         form = EmailPostForm(request.POST)
         if form.is_valid():
             # get a dict of valid fields and their value
             clean_data = form.cleaned_data
-            # ... send email (left to do)
+            # use the value inside clean_data to build our email
+            post_url = request.build_absolute_uri(post.get_absolute_url())
+            subject = f"{clean_data['name']} recommends you read {post.title}"
+            message = f"Read {post.title} at {post_url}\n\n"\
+                      f"{clean_data['name']}\'s comments: {clean_data['comments']}"
+            send_mail(subject, message, 'pratikdevkota82@gmail.com', [clean_data['to']])
+            sent = True
     else:
         form  = EmailPostForm()
     return render(request, template_name='posts/share.html',\
-                           context={'post': post, 'form': form} )
+            context={'post': post, 'form': form, 'sent': sent} )
