@@ -22,7 +22,8 @@ As can be seen, the project has just been started and we're adding stuff to it a
   `localhost:8000/admin` while the server is running.
 
 ### For Windows:
-+ Consider using Linux.
++ Install `git` if you haven't already and open `git bash`.
++ Now the steps should be the same as for Linux/MacOS.
 
 # Objectives
 + The current objective of the project is:
