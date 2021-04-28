@@ -1,10 +1,5 @@
-src/notesewa_project/__pycache__/
-src/posts/__pycache__/
-src/posts/migrations/__pycache__/
+**/__pycache__/
 # Let's not merge this right now
 src/posts/templates/posts/FrontendTemplate
 src/user_uploads/
-src/core/__pycache__/
 src/tags
-src/noteshub/__pycache__/
-user_uploads/
