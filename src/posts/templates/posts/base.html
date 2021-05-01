@@ -8,15 +8,18 @@
             <title> Noteshub </title>
         {% endif %}
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
     </head>
     <body>
         {% block content %}
         {% endblock content %}
+    <header>
         <nav>
-  <div="header"> <div class="logo">NOTESEWA </div>
+  <div class="logo">NOTESHUB</div>
    <ul>
-    <li><a href="#">HOME</a></li>
-    <li><a href="#">NOTES</a>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Notes</a>
      <ul>
        <li><a href="#">Physics</a></li>
        <li><a href="#">Maths</a></li>
@@ -26,7 +29,7 @@
        <li><a href="#">FIT</a></li>
      </ul>
     </li>
-    <li><a href="#">SOLUTIONS</a>
+    <li><a href="#">Solution</a>
      <ul>
        <li><a href="#">Physics</a></li>
        <li><a href="#">Maths</a></li>
@@ -36,13 +39,41 @@
        <li><a href="#">FIT</a></li>
       </ul>
      </li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="About.html">Account</a>
+          <ul>
+        <li><a href="About.html">Login</a></li>
+        <li><a href="About.html">Signup</a></li>
+          </ul>
+      </li>
    </ul>
 </nav>
-</div>
+       </header>
+       <!--main area for contents-->
 <div class="main">
+     <h1 class="h1">WELCOME TO NOTESHUB</h1>
 </div>
-
-        
+   <!--Footer-->
+       <div class="footer">
+    <div class="footer-content">
+      <div class="footer-part About">
+      <h2>NOTESHUB</h2>
+      <p>Noteshub is the beginning of our digital revolution in eduacation field in Nepal.</P>
+        </div>
+      <div class="footer-part Links">
+        <h2>Links</h2>
+      </div>
+      <div class="footer-part contact">
+      <h2>Contact Us</h2><br>
+        <form action="home.html" method="post">
+          <input type="email" name="email" class="text-input contact-input" placeholder="Email address here....">
+          <textarea name="massage" class="text-input contact-input" placeholder="your message here....."></textarea><br>
+          <button type="submit" class="btn">Send</button>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy;Noteshub</div>
+  </div>
+  <!--footer-->
     </body>
 </html>
 
