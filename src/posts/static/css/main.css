@@ -1,0 +1,168 @@
+{
+  box-sizing: border-box;
+}
+
+html, body {
+  height:100%;
+  background: #D7DBDD;
+   padding:0px;
+  margin: 0px;
+  font-family: "poppins", sans-serif;
+}
+
+nav {
+  background: black;
+  position: sticky;
+  width: 100%;
+}
+
+nav:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+nav .logo {
+  float: left;
+  color: white;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 750px;
+  line-height: :25px;
+  padding-left: 70px;
+  padding-top: 32px;
+  color: lime;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+
+nav ul li {
+  float: left;
+  display: inline-block;
+  background: black;
+  margin: 2px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 20px;
+  font-style: normal;
+  padding: 30px;
+}
+
+nav ul li a:hover {
+  color: #39FF01;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #39FF90,
+    0 0 5px #39FF90;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 70px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top .2s;
+}
+
+nav ul li:hover>ul {
+  top: 90px;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul li {
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  display: list-item;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul ul li a {
+  line-height: 50px;
+}
+
+nav ul ul li a:hover {
+  color: lime;
+  box-shadow: none;
+}
+/*media queries
+@media only screen and (max-width:750px){
+  nav ul {
+    width:100%;
+    background:black;
+    max-height: 0px;
+  }
+  nav ul li {
+    width:100%/
+    padding-left: 70px;
+  }
+  nav ul ul {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+
+    nav .menu-toggle{
+      display: block;
+    }
+}*/
+
+nav ul ul li a:hover {
+  color: lime;
+  box-shadow: none;
+}
+.main {
+  min-height: 100%;
+}
+
+.main .h1 {
+  color: halogen;
+  text-align: center;
+}
+
+.footer {
+  background: black;
+  color: white;
+  position: relative;
+  height: 400px;
+}
+
+.footer .footer-content {
+  border: 2px solid lime;
+  height: 370px;
+  display: flex;
+}
+.footer .footer-content h2, p{
+  text-align: center;
+}
+.footer .footer-content .footer-part{
+  flex: 1;
+  border:1px solid white;
+  padding:25px;
+}
+.footer .footer-content .contact .contact-input{
+margin-bottom: 10px;
+line-height: 1.5rem;
+padding:.7rem 1.2rem;
+}
+
+.footer .footer-bottom {
+  height: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+  background: grey;
+  width: 100%;
+}
