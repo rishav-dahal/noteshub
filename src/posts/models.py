@@ -7,6 +7,7 @@ from django.contrib.auth.models import User
 # package imports
 from core.models import TimeStampedModel
 
+
 class PublishedManager(models.Manager):
     """
     Custom manager to retrieve all posts that have published status
@@ -64,3 +65,19 @@ class Post(TimeStampedModel):
         """
         return self.title
     
+
+class Comment(TimeStampedModel):
+    """
+    Time stamped class to save our comments
+    """
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
+    name = models.CharField(max_length=80)
+    email = models.EmailField()
+    body = models.TextField()
+    active = models.BooleanField(default=True)
+
+    class Meta:
+        ordering = ('created',)
+
+    def __str__(self):
+        return f"Comment by {self.name} on {self.post}"

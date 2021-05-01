@@ -3,6 +3,9 @@
 # core Django imports
 from django import forms
 
+# package imports
+from .models import Comment
+
 
 class EmailPostForm(forms.Form):
     """
@@ -14,3 +17,8 @@ class EmailPostForm(forms.Form):
     # default widget is rendered as <input> element
     comments = forms.CharField(required=False,\
                widget=forms.Textarea) # display as <textarea> html element
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ('name', 'email', 'body')
